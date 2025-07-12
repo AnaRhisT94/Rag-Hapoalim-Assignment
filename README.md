@@ -135,10 +135,10 @@ INFO:rag_service:Index built successfully with 28 chunks
 
 ## Client Input & Output Logs
 
-# Input Query: 
+**Input Query:**
 `"What is the name of the scientist widely acclaimed as the foundational figure of modern physics?"`
 
-# Output: (The answer is correct its Ludwig Beethoven)
+**Output: (The answer is correct its Ludwig Beethoven)**
 ```
 === Health Check ===
 Health: {'status': 'healthy', 'index_exists': True, 'qa_model_loaded': True}
