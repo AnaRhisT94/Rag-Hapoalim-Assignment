@@ -35,7 +35,7 @@ A RAG system that combines document processing, semantic search, and LLM-based a
 
 ## Technical Stack Overview
 
-Our RAG implementation leverages these key technologies:
+The RAG implementation leverages these key technologies:
 
 - **FAISS (Vector Store)**: Facebook's similarity search engine for efficient vector storage and retrieval
 - **SentenceTransformer**: Creates dense vector embeddings for semantic search
