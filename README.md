@@ -33,6 +33,25 @@ A RAG system that combines document processing, semantic search, and LLM-based a
 └─────────────────┘    └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
+## Technical Stack Overview
+
+Our RAG implementation leverages these key technologies:
+
+- **FAISS (Vector Store)**: Facebook's similarity search engine for efficient vector storage and retrieval
+- **SentenceTransformer**: Creates dense vector embeddings for semantic search
+- **Llama-2-7B-32K-Instruct**: Powers answer generation with 32K context window
+- **Document Processing**: Chunks documents for precise retrieval and context management
+- **Persistence Layer**: Disk-based index storage with hash validation for consistency
+- **REST API**: HTTP endpoints for health checks, querying, and index management
+
+The system follows a pipeline architecture:
+1. Document ingestion (Excel/Word)
+2. Semantic indexing
+3. Context retrieval
+4. LLM-based answer generation
+
+This stack optimizes for performance, scalability, and maintainability while keeping resource usage efficient.
+
 ## System Flow
 
 ### Indexing Phase
